@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: rgb(255, 255, 255);
+      background-image: url('blackgray.jfif'); /* Background image */
+      background-size: cover;
+      background-position: center;
+      font-size: 20px;
+    }
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 50px;
+    }
+    .profile-image {
+      width: 200px; /* Adjust the size of the circular image */
+      height: 300px; /* Adjust the size of the circular image */
+      border-radius: 100%; /* Make the container circular */
+      overflow: visible; /* Ensure the image doesn't overflow the container */
+      margin: 50px auto; /* Center the container horizontally and add some margin */
+    }
+    .profile-image img {
+      width: 100%; 
+      height: auto; 
+      object-fit: cover; 
+    }
+    .button-group {
+      margin-top: 20px;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #0000006e; /* Green */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 16px; /* Adjust font size */
+      transition: ease-in;
+    }
+    .button:hover {
+      transform: scale(1.1); /* Enlarge the button on hover */
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-link {
+      margin-right: 20px;
+    }
+    .social-link img {
+      width: 40px; 
+      height: 40px; 
+    }
+
+ 
+    @media screen and (max-width: 768px) {
+      .profile-image {
+        width: 100px; 
+        height: 100px; 
+      }
+      .button {
+        padding: 8px 16px; 
+      }
+      .social-link img {
+        width: 30px;
+        height: 30px; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Self!</h1>
+    <div class="profile-image">
+      <img src="james3.jpg" alt="Profile Picture">
+    </div>
+    <div class="button-group">
+      <a href="https://crix098.github.io/aboutme/aboutme.html" class="button">About Me<span class="info"> </span></a>
+        <a href="https://crix098.github.io/family/family.html" class="button">My Family<span class="info"> </span></a>
+        <a href="https://crix098.github.io/dreams/dreams.html" class="button">My Dreams<span class="info"> </span></a>
+      </div>
+
+    <div class="social-links">
+      <p>Contact me here:</p>
+      <a href="https://www.facebook.com/james.gerafil/" class="social-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/240px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/james_roui/" class="social-link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Instagram"></a>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
